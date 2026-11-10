@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily DOM Challenges</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 25px;
+            background: white;
+            color: #222;
+            transition: 0.3s;
+        }
+
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        button {
+            padding: 9px 14px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        .dark-mode {
+            background: #222;
+            color: white;
+        }
+
+        .dark-mode section {
+            border-color: #777;
+        }
+
+        img {
+            width: 100px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Week 5 Daily DOM Challenges</h1>
+
+    <section>
+        <h2>Day 1: Color Changer</h2>
+        <button id="color-button">Change Heading Colors</button>
+    </section>
+
+    <section>
+        <h2>Day 2: Dynamic Element Creator</h2>
+        <button id="add-paragraph">Add Paragraph</button>
+        <div id="paragraph-container"></div>
+    </section>
+
+    <section>
+        <h2>Day 3: Image Remover</h2>
+        <img src="https://placehold.co/100x100" alt="Sample image">
+        <img src="https://placehold.co/100x100/blue/white" alt="Sample image">
+        <br>
+        <button id="remove-images">Remove Images</button>
+        <button id="toggle-images">Hide / Show Images</button>
+    </section>
+
+    <section>
+        <h2>Day 4: Content Copier</h2>
+        <div id="source" draggable="true">
+            This is the original content to copy.
+        </div>
+        <div id="target">Copied content appears here.</div>
+        <button id="copy-button">Copy Content</button>
+    </section>
+
+    <section>
+        <h2>Day 5: Dark Mode Toggle</h2>
+        <button id="dark-button">Toggle Dark Mode</button>
+    </section>
+
+    <script src="challenges.js"></script>
+</body>
+</html>
