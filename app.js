@@ -8,7 +8,34 @@ const filters = document.querySelectorAll(".filter");
 const clearCompletedBtn = document.getElementById("clear-completed");
 
 // State
-let todos = [];
+
+let todos = [
+    {
+        id: 1,
+        text: "Complete JavaScript homework",
+        completed: false
+    },
+    {
+        id: 2,
+        text: "Practice DOM manipulation",
+        completed: false
+    },
+    {
+        id: 3,
+        text: "Read JavaScript notes",
+        completed: false
+    },
+    {
+        id: 4,
+        text: "Practice Git and GitHub commands",
+        completed: false
+    },
+    {
+        id: 5,
+        text: "Submit Week 5 assignment",
+        completed: false
+    }
+];
 let currentFilter = "all";
 
 // Create a task element
